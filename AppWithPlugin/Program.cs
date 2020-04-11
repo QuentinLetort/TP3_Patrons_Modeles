@@ -84,6 +84,7 @@ namespace AppWithPlugin
                 string[] pluginPaths = new string[]
                 {
                    @"plugins\JsonLoader\bin\Debug\netcoreapp3.1\JsonLoader.dll",
+                   @"plugins\CsvLoader\bin\Debug\netcoreapp3.1\CsvLoader.dll",
                 };
 
                 IEnumerable<DataLoaderPlugin<User>> userLoaders = pluginPaths.SelectMany(pluginPath =>
@@ -104,7 +105,7 @@ namespace AppWithPlugin
                     string dataDir = Path.GetFullPath(Path.Combine(GetRootDirectory(), args[1].Replace('\\', Path.DirectorySeparatorChar)));
                     List<User> users = loader.LoadData(dataDir).ToList();
                     showSample<User>(users, 10);
-                    Console.WriteLine();
+                    Console.WriteLine("Total number of users: " + users.Count);
                 }
                 catch (Exception e)
                 {
