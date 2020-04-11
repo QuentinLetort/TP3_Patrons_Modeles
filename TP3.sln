@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWithPlugin", "AppWithPlugin\AppWithPlugin.csproj", "{CC5D3894-9B23-4F79-91AF-F8DF20755449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBase", "PluginBase\PluginBase.csproj", "{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{F68A2809-F3EB-4E80-B362-3E36716F6215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonLoader", "plugins\JsonLoader\JsonLoader.csproj", "{9F8BE3B3-636A-4167-90FF-0F997A027F5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Debug|x64.Build.0 = Debug|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Debug|x86.Build.0 = Debug|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Release|x64.ActiveCfg = Release|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Release|x64.Build.0 = Release|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Release|x86.ActiveCfg = Release|Any CPU
+		{CC5D3894-9B23-4F79-91AF-F8DF20755449}.Release|x86.Build.0 = Release|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Debug|x64.Build.0 = Debug|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Debug|x86.Build.0 = Debug|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Release|x64.ActiveCfg = Release|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Release|x64.Build.0 = Release|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Release|x86.ActiveCfg = Release|Any CPU
+		{3F99DEA8-1F9B-4AE2-AB16-AA2BA36F9301}.Release|x86.Build.0 = Release|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Debug|x64.Build.0 = Debug|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Debug|x86.Build.0 = Debug|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Release|x64.ActiveCfg = Release|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Release|x64.Build.0 = Release|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Release|x86.ActiveCfg = Release|Any CPU
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F8BE3B3-636A-4167-90FF-0F997A027F5A} = {F68A2809-F3EB-4E80-B362-3E36716F6215}
+	EndGlobalSection
+EndGlobal
